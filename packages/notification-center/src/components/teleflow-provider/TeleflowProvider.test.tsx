@@ -14,7 +14,7 @@ import {
 import { IUserPreferenceSettings } from '@teleflow/client';
 
 import { ISession } from '../../shared/interfaces';
-import { TeleflowProvider } from '../../components';
+import { TeleflowProvider } from '..';
 import { queryClient } from '../../components/teleflow-provider/TeleflowProvider';
 import { NotificationBell, PopoverNotificationCenter } from '../..';
 
