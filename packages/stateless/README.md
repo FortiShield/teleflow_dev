@@ -99,7 +99,7 @@ Teleflow provides a single API to manage providers across multiple channels with
 
 #### 📱 In-App
 
-- [x] [Teleflow](https://docs.teleflow.co/notification-center/introduction)
+- [x] [Teleflow](https://docs.teleflow.khulnasoft.com/notification-center/introduction)
 - [ ] MagicBell
 
 #### Other (Coming Soon...)
@@ -108,4 +108,4 @@ Teleflow provides a single API to manage providers across multiple channels with
 
 ## 🔗 Links
 
-- [Home page](https://teleflow.co/)
+- [Home page](https://teleflow.khulnasoft.com/)

@@ -424,7 +424,7 @@ install_databases () {
 
 create_local_dev_domain () {
     FILENAME="/etc/hosts"
-    HOST="local.teleflow.co"
+    HOST="local.teleflow.khulnasoft.com"
     IP="127.0.0.1"
     ENTRY="$IP\t$HOST"
 

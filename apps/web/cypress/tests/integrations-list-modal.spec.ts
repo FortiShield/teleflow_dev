@@ -611,7 +611,7 @@ describe('Integrations List Modal', function () {
     cy.getByTestId('is_active_id').check({ force: true });
     cy.getByTestId('apiKey').type('fake-api-key');
     cy.getByTestId('secretKey').type('fake-secret-key');
-    cy.getByTestId('from').type('info@teleflow.co');
+    cy.getByTestId('from').type('info@teleflow.khulnasoft.com');
     cy.getByTestId('senderName').type('Teleflow');
     cy.getByTestId('update-provider-sidebar-update').should('not.be.disabled').contains('Update').click();
 
@@ -674,7 +674,7 @@ describe('Integrations List Modal', function () {
     cy.getByTestId('is_active_id').check({ force: true });
     cy.getByTestId('apiKey').type('fake-api-key');
     cy.getByTestId('secretKey').type('fake-secret-key');
-    cy.getByTestId('from').type('info@teleflow.co');
+    cy.getByTestId('from').type('info@teleflow.khulnasoft.com');
     cy.getByTestId('senderName').type('Teleflow');
     cy.getByTestId('update-provider-sidebar-update').should('not.be.disabled').click();
 
@@ -773,7 +773,7 @@ describe('Integrations List Modal', function () {
       'Select a framework to set up credentials to start sending notifications.'
     );
     cy.getByTestId('update-provider-sidebar')
-      .find('a[href="https://docs.teleflow.co/notification-center/introduction?utm_campaign=in-app"]')
+      .find('a[href="https://docs.teleflow.khulnasoft.com/notification-center/introduction?utm_campaign=in-app"]')
       .contains('Explore set-up guide');
     cy.getByTestId('is_active_id').should('have.value', 'true');
     cy.window().then((win) => {

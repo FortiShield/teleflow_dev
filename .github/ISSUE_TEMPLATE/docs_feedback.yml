@@ -22,7 +22,7 @@ body:
     attributes:
       label: Related page
       description: Which page of the documentation is this about?
-      placeholder: https://docs.teleflow.co/platform/topics
+      placeholder: https://docs.teleflow.khulnasoft.com/platform/topics
     validations:
       required: true
 

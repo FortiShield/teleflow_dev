@@ -5,7 +5,7 @@ metadata:
     kompose.cmd: kompose convert
     kompose.version: 1.26.1 (HEAD)
   labels:
-    app.teleflow.co/name: mongodb
+    app.teleflow.khulnasoft.com/name: mongodb
   name: mongodb
 spec:
   ports:
@@ -13,4 +13,4 @@ spec:
       port: 27017
       targetPort: 27017
   selector:
-    app.teleflow.co/name: mongodb
+    app.teleflow.khulnasoft.com/name: mongodb

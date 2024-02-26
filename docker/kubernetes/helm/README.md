@@ -4,7 +4,7 @@
 
 Teleflow provides a unified API that makes it simple to send notifications through multiple channels, including In-App, Push, Email, SMS, and Chat. With Teleflow, you can create custom workflows and define conditions for each channel, ensuring that your notifications are delivered in the most effective way possible.
 
-[Overview of Teleflow](https://teleflow.co/)
+[Overview of Teleflow](https://teleflow.khulnasoft.com/)
 
 ## TL;DR
 
@@ -155,7 +155,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | `api.env.NODE_ENV`                                    | The environment of the app.                                                                                                                     | `production`             |
 | `api.env.API_ROOT_URL`                                | Define the required env for teleflow                                                                                                                | `http://teleflow-api:3000`   |
 | `api.env.DISABLE_USER_REGISTRATION`                   | If users should not be able to create new accounts. Possible values are: true, false                                                            | `true`                   |
-| `api.env.FRONT_BASE_URL`                              | The base url on which your frontend is accessible for the user. (e.g. web.teleflow.co)                                                              | `http://teleflow-web:4200`   |
+| `api.env.FRONT_BASE_URL`                              | The base url on which your frontend is accessible for the user. (e.g. web.teleflow.khulnasoft.com)                                                              | `http://teleflow-web:4200`   |
 | `api.env.MONGO_MIN_POOL_SIZE`                         | The min pool size of the MongoDB connection                                                                                                     | `10`                     |
 | `api.env.MONGO_MAX_POOL_SIZE`                         | The max pool size of the MongoDB connection                                                                                                     | `50`                     |
 | `api.ingress.enabled`                                 | Enable ingress record generation for teleflow api                                                                                                   | `false`                  |

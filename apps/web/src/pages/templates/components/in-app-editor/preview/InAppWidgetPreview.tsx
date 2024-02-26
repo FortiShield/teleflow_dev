@@ -200,7 +200,7 @@ export function Footer() {
     <a
       rel="noreferrer"
       target="_blank"
-      href="https://teleflow.co?utm_source=in-app-widget"
+      href="https://teleflow.khulnasoft.com?utm_source=in-app-widget"
       style={{ display: 'flex', width: 60 }}
     >
       <svg width="107" height="16" viewBox="0 0 1049 300" fill="none" xmlns="http://www.w3.org/2000/svg">

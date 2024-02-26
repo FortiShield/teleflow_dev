@@ -5,20 +5,20 @@ metadata:
     kompose.cmd: kompose convert
     kompose.version: 1.26.1 (HEAD)
   labels:
-    app.teleflow.co/name: redis
+    app.teleflow.khulnasoft.com/name: redis
   name: redis
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.teleflow.co/name: redis
+      app.teleflow.khulnasoft.com/name: redis
   template:
     metadata:
       annotations:
         kompose.cmd: kompose convert
         kompose.version: 1.26.1 (HEAD)
       labels:
-        app.teleflow.co/name: redis
+        app.teleflow.khulnasoft.com/name: redis
     spec:
       containers:
         - image: redis:alpine

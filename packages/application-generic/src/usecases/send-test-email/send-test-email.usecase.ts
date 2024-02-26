@@ -92,7 +92,7 @@ export class SendTestEmail {
         from:
           command.payload.$sender_email ||
           integration?.credentials.from ||
-          'no-reply@teleflow.co',
+          'no-reply@teleflow.khulnasoft.com',
       };
 
       await this.sendMessage(integration, mailData, mailFactory, command);

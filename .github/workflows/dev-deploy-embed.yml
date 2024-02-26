@@ -21,7 +21,7 @@ jobs:
     uses: ./.github/workflows/reusable-embed-deploy.yml
     with:
       environment: Development
-      widget_url: https://dev.widget.teleflow.co
+      widget_url: https://dev.widget.teleflow.khulnasoft.com
       netlify_deploy_message: Dev deployment
       netlify_alias: dev
       netlify_gh_env: development

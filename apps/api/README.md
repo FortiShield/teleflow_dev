@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://teleflow.co" target="_blank">
+  <a href="https://teleflow.khulnasoft.com" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/2233092/213641039-220ac15f-f367-4d13-9eaf-56e79433b8c1.png">
     <img src="https://user-images.githubusercontent.com/2233092/213641043-3bbb3f21-3c53-4e67-afe5-755aeb222159.png" width="280" alt="Logo"/>
@@ -15,7 +15,7 @@ A RESTful API for accessing the Teleflow platform, built using [NestJS](https://
 
 The Teleflow API utilizes the [`@nestjs/swagger`](https://github.com/nestjs/swagger) package to generate up-to-date OpenAPI specifications.
 
-A web interface to browse the published endpoints is available during local development at [localhost:3000/openapi](https://localhost:3000/openapi). An OpenAPI specification can be retrieved at [api.teleflow.co/openapi.yaml](https://api.teleflow.co/openapi.yaml).
+A web interface to browse the published endpoints is available during local development at [localhost:3000/openapi](https://localhost:3000/openapi). An OpenAPI specification can be retrieved at [api.teleflow.khulnasoft.com/openapi.yaml](https://api.teleflow.khulnasoft.com/openapi.yaml).
 
 To maintain consistency and quality of OpenAPI documentation, Teleflow uses [Spectral](https://github.com/stoplightio/spectral) to validate the OpenAPI specification and enforce style. The OpenAPI specification is run through a Github action on pull request, and call also be run locally after starting the API with:
 
@@ -27,7 +27,7 @@ The command will return warnings and errors that must be fixed before the Github
 
 ## Running the API
 
-See the docs for [Run in Local Machine](https://docs.teleflow.co/community/run-in-local-machine) to get setup. Then run:
+See the docs for [Run in Local Machine](https://docs.teleflow.khulnasoft.com/community/run-in-local-machine) to get setup. Then run:
 
 ```bash
 # Run the API in watch mode
@@ -43,7 +43,7 @@ $ npm run test
 ```
 
 ### E2E tests
-See the docs for [Running on Local Machine - API Tests](https://docs.teleflow.co/community/run-in-local-machine#api).
+See the docs for [Running on Local Machine - API Tests](https://docs.teleflow.khulnasoft.com/community/run-in-local-machine#api).
 
 ## Migrations
 Database migrations are included for features that have a hard dependency on specific data being available on database entities. These migrations are run by both Teleflow Cloud and Teleflow Self-Hosted users to support new feature releases.

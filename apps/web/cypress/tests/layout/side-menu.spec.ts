@@ -14,10 +14,10 @@ describe('Side Menu', function () {
 
   it('should show bottom support, docs and share feedback', function () {
     cy.getByTestId('side-nav-bottom-links').scrollIntoView().should('be.visible');
-    cy.getByTestId('side-nav-bottom-link-support').should('have.attr', 'href').should('eq', 'https://discord.teleflow.co');
+    cy.getByTestId('side-nav-bottom-link-support').should('have.attr', 'href').should('eq', 'https://discord.teleflow.khulnasoft.com');
     cy.getByTestId('side-nav-bottom-link-documentation')
       .should('have.attr', 'href')
-      .should('eq', 'https://docs.teleflow.co?utm_campaign=in-app');
+      .should('eq', 'https://docs.teleflow.khulnasoft.com?utm_campaign=in-app');
 
     cy.getByTestId('side-nav-bottom-link-share-feedback')
       .should('have.attr', 'href')

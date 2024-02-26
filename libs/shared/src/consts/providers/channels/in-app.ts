@@ -12,7 +12,7 @@ export const inAppProviders: IProviderConfig[] = [
     displayName: 'Teleflow In-App',
     channel: ChannelTypeEnum.IN_APP,
     credentials: teleflowInAppConfig,
-    docReference: `https://docs.teleflow.co/notification-center/introduction${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/notification-center/introduction${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'teleflow.png', dark: 'teleflow.png' },
   },
 ];

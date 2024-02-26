@@ -60,8 +60,8 @@ export function TeleflowProvider({
   children,
   onLoad,
 }: ITeleflowProviderProps) {
-  const backendUrl = initialBackendUrl ?? 'https://api.teleflow.co';
-  const socketUrl = initialSocketUrl ?? 'https://ws.teleflow.co';
+  const backendUrl = initialBackendUrl ?? 'https://api.teleflow.khulnasoft.com';
+  const socketUrl = initialSocketUrl ?? 'https://ws.teleflow.khulnasoft.com';
   const stores = initialStores ?? [{ storeId: 'default_store' }];
   const [fetchingStrategy, setFetchingStrategyState] = useState({
     ...DEFAULT_FETCHING_STRATEGY,

@@ -120,7 +120,7 @@ export class HeadlessService {
   };
 
   constructor(private options: IHeadlessServiceOptions) {
-    const backendUrl = options.backendUrl ?? 'https://api.teleflow.co';
+    const backendUrl = options.backendUrl ?? 'https://api.teleflow.khulnasoft.com';
     const token = getToken();
     this.api = new ApiService(backendUrl);
     this.applyToken(token);
@@ -163,7 +163,7 @@ export class HeadlessService {
   }
 
   private initializeSocket(token: string | null) {
-    const socketUrl = this.options.socketUrl ?? 'https://ws.teleflow.co';
+    const socketUrl = this.options.socketUrl ?? 'https://ws.teleflow.khulnasoft.com';
 
     if (this.socket) {
       this.socket.disconnect();

@@ -64,6 +64,6 @@ export const RESPONSE_HEADER_CONFIG: Record<HttpResponseHeaderKeysEnum, HeaderOb
     required: false,
     description: 'A link to the documentation.',
     schema: { type: 'string' },
-    example: 'https://docs.teleflow.co/',
+    example: 'https://docs.teleflow.khulnasoft.com/',
   },
 };

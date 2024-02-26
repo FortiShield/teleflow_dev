@@ -95,7 +95,7 @@ describe('Get activity stats - /notifications/stats (GET)', async () => {
     const _subscriberId = subscriberId;
     const _templateId = template._id;
     const channels = [StepTypeEnum.IN_APP];
-    const to = 'no-reply@teleflow.co';
+    const to = 'no-reply@teleflow.khulnasoft.com';
     const payload = {};
 
     const notifications: unknown[] = [];

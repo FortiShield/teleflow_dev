@@ -20,13 +20,13 @@ jobs:
     uses: ./.github/workflows/reusable-web-deploy.yml
     with:
       environment: Production
-      react_app_api_url: https://eu.api.teleflow.co
-      react_app_ws_url: https://eu.ws.teleflow.co
-      react_app_webhook_url: https://eu.webhook.teleflow.co
-      react_app_widget_embed_path: https://eu.embed.teleflow.co/embed.umd.min.js
+      react_app_api_url: https://eu.api.teleflow.khulnasoft.com
+      react_app_ws_url: https://eu.ws.teleflow.khulnasoft.com
+      react_app_webhook_url: https://eu.webhook.teleflow.khulnasoft.com
+      react_app_widget_embed_path: https://eu.embed.teleflow.khulnasoft.com/embed.umd.min.js
       react_app_sentry_dsn: https://2b5160da86384949be4cc66679c54e79@o1161119.ingest.sentry.io/6250907
       react_app_environment: production
-      react_app_mail_server_domain: eu.inbound-mail.teleflow.co
+      react_app_mail_server_domain: eu.inbound-mail.teleflow.khulnasoft.com
       react_app_hubspot_embed: 44416662
       netlify_deploy_message: Prod deployment
       netlify_alias: prod
@@ -41,13 +41,13 @@ jobs:
     uses: ./.github/workflows/reusable-web-deploy.yml
     with:
       environment: Production
-      react_app_api_url: https://api.teleflow.co
-      react_app_ws_url: https://ws.teleflow.co
-      react_app_webhook_url: https://webhook.teleflow.co
-      react_app_widget_embed_path: https://embed.teleflow.co/embed.umd.min.js
+      react_app_api_url: https://api.teleflow.khulnasoft.com
+      react_app_ws_url: https://ws.teleflow.khulnasoft.com
+      react_app_webhook_url: https://webhook.teleflow.khulnasoft.com
+      react_app_widget_embed_path: https://embed.teleflow.khulnasoft.com/embed.umd.min.js
       react_app_sentry_dsn: https://2b5160da86384949be4cc66679c54e79@o1161119.ingest.sentry.io/6250907
       react_app_environment: production
-      react_app_mail_server_domain: inbound-mail.teleflow.co
+      react_app_mail_server_domain: inbound-mail.teleflow.khulnasoft.com
       react_app_hubspot_embed: 44416662
       netlify_deploy_message: Prod deployment
       netlify_alias: prod

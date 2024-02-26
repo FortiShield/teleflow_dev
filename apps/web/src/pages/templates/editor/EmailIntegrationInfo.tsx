@@ -30,7 +30,7 @@ export const EmailIntegrationInfo = ({
   }
 
   if (field === 'from') {
-    return <>no-reply@teleflow.co</>;
+    return <>no-reply@teleflow.khulnasoft.com</>;
   }
 
   return <>{currentOrganization?.name || 'Teleflow'}</>;

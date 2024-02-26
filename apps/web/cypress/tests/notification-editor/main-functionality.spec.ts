@@ -287,7 +287,7 @@ describe('Workflow Editor - Main Functionality', function () {
 
     cy.getByTestId('email-editor')
       .getByTestId('brand-logo')
-      .should('have.attr', 'src', 'https://web.teleflow.co/static/images/logo-light.png');
+      .should('have.attr', 'src', 'https://web.teleflow.khulnasoft.com/static/images/logo-light.png');
   });
 
   it('should support RTL text content', function () {

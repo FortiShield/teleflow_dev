@@ -28,13 +28,13 @@ jobs:
     uses: ./.github/workflows/reusable-web-deploy.yml
     with:
       environment: Development
-      react_app_api_url: https://staging.api.teleflow.co
-      react_app_ws_url: https://staging.ws.teleflow.co
-      react_app_webhook_url: https://staging.webhook.teleflow.co
-      react_app_widget_embed_path: https://staging.embed.teleflow.co/embed.umd.min.js
+      react_app_api_url: https://staging.api.teleflow.khulnasoft.com
+      react_app_ws_url: https://staging.ws.teleflow.khulnasoft.com
+      react_app_webhook_url: https://staging.webhook.teleflow.khulnasoft.com
+      react_app_widget_embed_path: https://staging.embed.teleflow.khulnasoft.com/embed.umd.min.js
       react_app_sentry_dsn: https://8054d521cff2e73d32b8edfe4793d05c@o1161119.ingest.sentry.io/4505829158158336
       react_app_environment: staging
-      react_app_mail_server_domain: staging.inbound-mail.teleflow.co
+      react_app_mail_server_domain: staging.inbound-mail.teleflow.khulnasoft.com
       netlify_deploy_message: Staging deployment
       netlify_alias: dev
       netlify_gh_env: staging

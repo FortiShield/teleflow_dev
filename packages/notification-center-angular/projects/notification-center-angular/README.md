@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://teleflow.co" target="_blank">
+  <a href="https://teleflow.khulnasoft.com" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/2233092/213641039-220ac15f-f367-4d13-9eaf-56e79433b8c1.png">
     <img src="https://user-images.githubusercontent.com/2233092/213641043-3bbb3f21-3c53-4e67-afe5-755aeb222159.png" width="280" alt="Logo"/>
@@ -16,12 +16,12 @@ This library contains a wrapper for the Teleflow Notification Center web compone
 
 ## 📖 Client Installation
 
-For our client installation guide, visit our [Angular Client docs](https://docs.teleflow.co/notification-center/client/angular).
+For our client installation guide, visit our [Angular Client docs](https://docs.teleflow.khulnasoft.com/notification-center/client/angular).
 
 ## 🏃‍♂️ Quickstart
 
-For a quickstart, visit our [Angular Quickstart docs](https://docs.teleflow.co/quickstarts/angular).
+For a quickstart, visit our [Angular Quickstart docs](https://docs.teleflow.khulnasoft.com/quickstarts/angular).
 
 ## 💻 Need Help?
 
-We are more than happy to help you. If you are getting any errors or facing problems while working on this project, join our [Discord server](https://discord.teleflow.co) and ask for help. We are open to discussing anything related to the project.
+We are more than happy to help you. If you are getting any errors or facing problems while working on this project, join our [Discord server](https://discord.teleflow.khulnasoft.com) and ask for help. We are open to discussing anything related to the project.

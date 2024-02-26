@@ -29,7 +29,7 @@ function EmailSenderInformation() {
         </List.Item>
         <List.Item>
           <Text>
-            Sender's email address: <SenderDetailSpan>no-reply@teleflow.co</SenderDetailSpan>
+            Sender's email address: <SenderDetailSpan>no-reply@teleflow.khulnasoft.com</SenderDetailSpan>
           </Text>
         </List.Item>
       </List>

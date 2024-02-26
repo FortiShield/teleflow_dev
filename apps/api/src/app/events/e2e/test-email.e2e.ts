@@ -15,7 +15,7 @@ describe('Events - Test email - /v1/events/test/email (POST)', function () {
     subject: 'subject',
     preheader: 'preheader',
     content: '<html><head></head><body>Hello world!</body></html>',
-    to: 'to-reply@teleflow.co',
+    to: 'to-reply@teleflow.khulnasoft.com',
   };
 
   let session: UserSession;

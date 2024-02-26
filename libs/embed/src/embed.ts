@@ -8,7 +8,7 @@ import { UnmountedError, DomainVerificationError } from './shared/errors';
 import { IFRAME_URL } from './shared/resources';
 import type { IStore, ITab, INotificationCenterStyles, ColorScheme } from '@teleflow/notification-center';
 
-const WEASL_WRAPPER_ID = 'teleflow-container';
+const WEASL_WRAPPER_ID = 'teleflow.khulnasoft.comntainer';
 const IFRAME_ID = 'teleflow-iframe-element';
 
 class Teleflow {

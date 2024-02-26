@@ -633,7 +633,7 @@
     "node_modules/**",
     "pnpm-lock.yaml",
     "pnpm-workspace.yaml",
-    "teleflow.code-workspace",
+    "teleflow.khulnasoft.comde-workspace",
     "packages/application-generic/src/.env.test",
     "packages/notification-center/src/i18n/languages/**",
     "packages/notification-center/rollup.config.mjs",

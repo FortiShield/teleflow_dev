@@ -160,7 +160,7 @@ export const termAndPrivacyQuestions: ListQuestionOptions[] = [
   {
     type: 'list',
     name: 'accept',
-    message: `I accept the Terms and Conditions (https://teleflow.co/terms) and have read the Privacy Policy (https://teleflow.co/privacy)`,
+    message: `I accept the Terms and Conditions (https://teleflow.khulnasoft.com/terms) and have read the Privacy Policy (https://teleflow.khulnasoft.com/privacy)`,
     choices: [
       {
         name: `Yes`,

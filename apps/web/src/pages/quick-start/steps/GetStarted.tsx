@@ -73,7 +73,7 @@ function LearnMoreRef() {
 
   return (
     <a
-      href={`https://docs.teleflow.co/quickstarts/01-introduction${UTM_CAMPAIGN_QUERY_PARAM}`}
+      href={`https://docs.teleflow.khulnasoft.com/quickstarts/01-introduction${UTM_CAMPAIGN_QUERY_PARAM}`}
       style={{ color: '#DD2476', textDecoration: 'underline', fontSize: '18px' }}
       onClick={() => handleOnClick}
       target="_blank"

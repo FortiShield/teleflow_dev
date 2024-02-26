@@ -1,6 +1,6 @@
 ## Running teleflow locally
 
-For a full guide on running teleflow locally for development needs, please read our guide here: https://docs.teleflow.co/community/run-in-local-machine
+For a full guide on running teleflow locally for development needs, please read our guide here: https://docs.teleflow.khulnasoft.com/community/run-in-local-machine
 
 ### Advanced - Running with a Redis Cluster
 

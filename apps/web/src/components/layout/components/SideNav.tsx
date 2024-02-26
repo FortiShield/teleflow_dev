@@ -207,7 +207,7 @@ export function SideNav({}: Props) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://discord.teleflow.co"
+            href="https://discord.teleflow.khulnasoft.com"
             data-test-id="side-nav-bottom-link-support"
           >
             Support
@@ -218,7 +218,7 @@ export function SideNav({}: Props) {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href={`https://docs.teleflow.co${UTM_CAMPAIGN_QUERY_PARAM}`}
+            href={`https://docs.teleflow.khulnasoft.com${UTM_CAMPAIGN_QUERY_PARAM}`}
             data-test-id="side-nav-bottom-link-documentation"
           >
             Docs

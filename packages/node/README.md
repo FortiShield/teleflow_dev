@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://teleflow.co" target="_blank">
+  <a href="https://teleflow.khulnasoft.com" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/2233092/213641039-220ac15f-f367-4d13-9eaf-56e79433b8c1.png">
     <img src="https://user-images.githubusercontent.com/2233092/213641043-3bbb3f21-3c53-4e67-afe5-755aeb222159.png" width="280" alt="Logo"/>
@@ -15,7 +15,7 @@ The ultimate service for managing multi-channel notifications with a single API.
 
   <p align="center">
     <br />
-    <a href="https://docs.teleflow.co" rel="dofollow"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.teleflow.khulnasoft.com" rel="dofollow"><strong>Explore the docs »</strong></a>
     <br />
 
   <br/>
@@ -23,14 +23,14 @@ The ultimate service for managing multi-channel notifications with a single API.
     ·
     <a href="https://github.com/khulnasoft/teleflow/issues/new?assignees=&labels=feature&template=feature_request.yml&title=%F0%9F%9A%80+Feature%3A+">Request Feature</a>
     ·
-  <a href="https://discord.teleflow.co">Join Our Discord</a>
+  <a href="https://discord.teleflow.khulnasoft.com">Join Our Discord</a>
     ·
     <a href="https://github.com/orgs/khulnasoft/projects/10">Roadmap</a>
     ·
     <a href="https://twitter.com/khulnasoft">X</a>
     ·
     <a href="https://notifications.directory">Notifications Directory</a>.
-    <a href="https://teleflow.co/blog">Read our blog</a>
+    <a href="https://teleflow.khulnasoft.com/blog">Read our blog</a>
   </p>
 
 ## ⭐️ Why
@@ -126,7 +126,7 @@ Teleflow provides a single API to manage providers across multiple channels with
 
 #### 📱 In-App
 
-- [x] [Teleflow](https://docs.teleflow.co/notification-center/introduction)
+- [x] [Teleflow](https://docs.teleflow.khulnasoft.com/notification-center/introduction)
 - [ ] MagicBell
 
 #### Other (Coming Soon...)
@@ -135,7 +135,7 @@ Teleflow provides a single API to manage providers across multiple channels with
 
 ## 🔗 Links
 
-- [Home page](https://teleflow.co/)
+- [Home page](https://teleflow.khulnasoft.com/)
 
 ## SDK Methods
 
@@ -537,7 +537,7 @@ await teleflow.events.trigger("workflowIdentifier", {
   },
   overrides: {
     email: {
-      from: "support@teleflow.co",
+      from: "support@teleflow.khulnasoft.com",
       // customData will work only for sendgrid
       customData: {
         "customKey": "customValue"
@@ -660,7 +660,7 @@ await teleflow.events.bulkTrigger([
     },
     overrides: {
       email: {
-        from: 'support@teleflow.co',
+        from: 'support@teleflow.khulnasoft.com',
       },
     },
     // actorId is subscriberId of actor
@@ -678,7 +678,7 @@ await teleflow.events.bulkTrigger([
     },
     overrides: {
       email: {
-        from: 'support@teleflow.co',
+        from: 'support@teleflow.khulnasoft.com',
       },
     },
     // actorId is subscriberId of actor
@@ -704,7 +704,7 @@ await teleflow.events.broadcast('workflowIdentifier', {
   },
   overrides: {
     email: {
-      from: 'support@teleflow.co',
+      from: 'support@teleflow.khulnasoft.com',
     },
   },
   tenant: 'tenantIdentifier',
@@ -934,7 +934,7 @@ const updatePayload = {
   identifier: "sendgrid-identifier",
   credentials: {
     apiKey: "SUPER_SECRET_API_KEY",
-    from: "sales@teleflow.co",
+    from: "sales@teleflow.khulnasoft.com",
     senderName: "Teleflow Sales Team"
     // ... other credentials as per provider
   },

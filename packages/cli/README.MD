@@ -18,7 +18,7 @@ The ultimate service for managing multi-channel notifications with a single API.
 
   <p align="center">
     <br />
-    <a href="https://docs.teleflow.co" rel="dofollow"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.teleflow.khulnasoft.com" rel="dofollow"><strong>Explore the docs »</strong></a>
     <br />
 
   <br/>
@@ -26,9 +26,9 @@ The ultimate service for managing multi-channel notifications with a single API.
     ·
     <a href="https://github.com/khulnasoft/teleflow/issues/new?assignees=&labels=feature&template=feature_request.yml&title=%F0%9F%9A%80+Feature%3A+">Request Feature</a>
     ·
-  <a href="https://discord.teleflow.co">Join Our Discord</a>
+  <a href="https://discord.teleflow.khulnasoft.com">Join Our Discord</a>
     ·
-    <a href="https://roadmap.teleflow.co/">Roadmap</a>
+    <a href="https://roadmap.teleflow.khulnasoft.com/">Roadmap</a>
     ·
     <a href="https://twitter.com/khulnasoft">X</a>
   </p>
@@ -89,7 +89,7 @@ Using the Teleflow API and admin panel you can easily add real-time notification
 <div align="center">
 <img width="762" alt="notification-center-912bb96e009fb3a69bafec23bcde00b0" src="https://github.com/iampearceman/Design-assets/blob/main/Untitled%20design%20(8).gif?raw=true">
   
-  Read more about how to add a notification center to your app with the Teleflow API [here](https://docs.teleflow.co/notification-center/introduction)
+  Read more about how to add a notification center to your app with the Teleflow API [here](https://docs.teleflow.khulnasoft.com/notification-center/introduction)
 
 </div>
 
@@ -140,7 +140,7 @@ Teleflow provides a single API to manage providers across multiple channels with
 
 #### 📱 In-App
 
-- [x] [Teleflow](https://docs.teleflow.co/notification-center/introduction)
+- [x] [Teleflow](https://docs.teleflow.khulnasoft.com/notification-center/introduction)
 - [ ] MagicBell
 
 #### Other (Coming Soon...)
@@ -151,8 +151,8 @@ Teleflow provides a single API to manage providers across multiple channels with
 
 We are more than happy to help you. Don't worry if you are getting some errors or problems while working with the project. Or just want to discuss something related to the project.
 
-Just <a href="https://discord.teleflow.co">Join Our Discord</a> server and ask for help.
+Just <a href="https://discord.teleflow.khulnasoft.com">Join Our Discord</a> server and ask for help.
 
 ## 🔗 Links
 
-- [Home page](https://teleflow.co/)
+- [Home page](https://teleflow.khulnasoft.com/)

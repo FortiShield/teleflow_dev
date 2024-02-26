@@ -7,10 +7,10 @@ export const REDIRECT_ROUTE = '/cli/callback';
 export const WIDGET_DEMO_ROUTE = '/demo';
 export const TRIGGER_ROUTE = '/trigger';
 
-export const EMBED_PATH = process.env.TELEFLOW_EMBED_PATH ?? 'https://embed.teleflow.co/embed.umd.min.js';
+export const EMBED_PATH = process.env.TELEFLOW_EMBED_PATH ?? 'https://embed.teleflow.khulnasoft.com/embed.umd.min.js';
 
 // API
-const apiAddress = process.env.TELEFLOW_API_ADDRESS ?? 'https://api.teleflow.co';
+const apiAddress = process.env.TELEFLOW_API_ADDRESS ?? 'https://api.teleflow.khulnasoft.com';
 
 export const API_OAUTH_URL = `${apiAddress}/v1/auth/github`;
 export const API_AUTH_SIGNUP = `${apiAddress}/v1/auth/register`;
@@ -26,7 +26,7 @@ export const API_NOTIFICATION_TEMPLATES_URL = `${apiAddress}/v1/notification-tem
 export const API_TRIGGER_URL = `${apiAddress}/v1/events/trigger`;
 
 // Client
-export const CLIENT_LOGIN_URL = process.env.TELEFLOW_CLIENT_LOGIN || 'https://web.teleflow.co/auth/login';
+export const CLIENT_LOGIN_URL = process.env.TELEFLOW_CLIENT_LOGIN || 'https://web.teleflow.khulnasoft.com/auth/login';
 
 // github
 export const GITHUB_DOCKER_URL = 'https://github.com/khulnasoft/teleflow/tree/main/docker';

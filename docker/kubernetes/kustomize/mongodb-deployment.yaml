@@ -5,20 +5,20 @@ metadata:
     kompose.cmd: kompose convert
     kompose.version: 1.26.1 (HEAD)
   labels:
-    app.teleflow.co/name: mongodb
+    app.teleflow.khulnasoft.com/name: mongodb
   name: mongodb
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.teleflow.co/name: mongodb
+      app.teleflow.khulnasoft.com/name: mongodb
   template:
     metadata:
       annotations:
         kompose.cmd: kompose convert
         kompose.version: 1.26.1 (HEAD)
       labels:
-        app.teleflow.co/name: mongodb
+        app.teleflow.khulnasoft.com/name: mongodb
     spec:
       containers:
         - envFrom:

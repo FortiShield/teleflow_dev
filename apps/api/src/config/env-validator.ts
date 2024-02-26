@@ -127,7 +127,7 @@ if (process.env.NODE_ENV !== 'local' && process.env.NODE_ENV !== 'test') {
     default: '',
   });
   validators.VERCEL_REDIRECT_URI = url({
-    default: 'https://web.teleflow.co/auth/login',
+    default: 'https://web.teleflow.khulnasoft.com/auth/login',
   });
   validators.VERCEL_BASE_URL = url({
     default: 'https://api.vercel.com',

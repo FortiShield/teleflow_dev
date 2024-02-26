@@ -158,13 +158,13 @@ export class SESEmailProvider implements IEmailProvider {
       await this.sendMail({
         html: '',
         text: 'This is a Test mail to test your Amazon SES integration',
-        to: 'no-reply@teleflow.co',
+        to: 'no-reply@teleflow.khulnasoft.com',
         from: this.config.from,
         subject: 'Test SES integration',
         attachments: {},
         bcc: [],
         cc: [],
-        replyTo: 'support@teleflow.co',
+        replyTo: 'support@teleflow.khulnasoft.com',
         senderName: 'Teleflow Support',
       });
 

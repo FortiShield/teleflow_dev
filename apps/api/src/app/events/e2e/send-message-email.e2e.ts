@@ -22,35 +22,35 @@ export const createMailData = (options: IEmailOptions, overrides: Record<string,
 describe('Trigger event - Send message email - /v1/events/trigger (POST)', function () {
   it('should merge mail data', function () {
     const defaultMailData = {
-      to: ['to-reply@teleflow.co'],
+      to: ['to-reply@teleflow.khulnasoft.com'],
       subject: 'subject',
       html: '<html></html>',
-      from: 'no-reply@teleflow.co',
+      from: 'no-reply@teleflow.khulnasoft.com',
       attachments: [],
       id: 'id',
     };
 
     let result = createMailData(defaultMailData, {
-      to: ['override-to@teleflow.co'],
-      from: 'override-from@teleflow.co',
+      to: ['override-to@teleflow.khulnasoft.com'],
+      from: 'override-from@teleflow.khulnasoft.com',
       text: 'text',
-      cc: ['cc@teleflow.co'],
-      bcc: ['bcc@teleflow.co'],
+      cc: ['cc@teleflow.khulnasoft.com'],
+      bcc: ['bcc@teleflow.khulnasoft.com'],
     });
 
-    expect(result.to).to.deep.equal(['to-reply@teleflow.co', 'override-to@teleflow.co']);
-    expect(result.from).to.equal('override-from@teleflow.co');
+    expect(result.to).to.deep.equal(['to-reply@teleflow.khulnasoft.com', 'override-to@teleflow.khulnasoft.com']);
+    expect(result.from).to.equal('override-from@teleflow.khulnasoft.com');
     expect(result.text).to.equal('text');
-    expect(result.cc).to.deep.equal(['cc@teleflow.co']);
-    expect(result.bcc).to.deep.equal(['bcc@teleflow.co']);
+    expect(result.cc).to.deep.equal(['cc@teleflow.khulnasoft.com']);
+    expect(result.bcc).to.deep.equal(['bcc@teleflow.khulnasoft.com']);
 
     result = createMailData(
       {
         ...defaultMailData,
-        to: ['override-to@teleflow.co'],
+        to: ['override-to@teleflow.khulnasoft.com'],
       },
       {
-        from: 'override-from@teleflow.co',
+        from: 'override-from@teleflow.khulnasoft.com',
         text: 'text',
         to: [],
       }
@@ -58,7 +58,7 @@ describe('Trigger event - Send message email - /v1/events/trigger (POST)', funct
 
     expect(result.cc).to.deep.equal([]);
     expect(result.bcc).to.deep.equal([]);
-    expect(result.to).to.deep.equal(['override-to@teleflow.co']);
+    expect(result.to).to.deep.equal(['override-to@teleflow.khulnasoft.com']);
   });
 
   it('should add a preheader to html string after <body>', async function () {

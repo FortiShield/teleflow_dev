@@ -13,7 +13,7 @@ jobs:
     uses: ./.github/workflows/reusable-embed-deploy.yml
     with:
       environment: Production
-      widget_url: https://eu.widget.teleflow.co
+      widget_url: https://eu.widget.teleflow.khulnasoft.com
       netlify_deploy_message: Production deployment
       netlify_alias: prod
       netlify_gh_env: Production
@@ -24,7 +24,7 @@ jobs:
       uses: ./.github/workflows/reusable-embed-deploy.yml
       with:
         environment: Production
-        widget_url: https://widget.teleflow.co
+        widget_url: https://widget.teleflow.khulnasoft.com
         netlify_deploy_message: Production deployment
         netlify_alias: prod
         netlify_gh_env: Production

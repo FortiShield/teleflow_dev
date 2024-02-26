@@ -88,10 +88,10 @@ export class Teleflow extends EventEmitter {
     const teleflowApiVersion = 'v1';
 
     if (!config?.backendUrl) {
-      return `https://api.teleflow.co/${teleflowApiVersion}`;
+      return `https://api.teleflow.khulnasoft.com/${teleflowApiVersion}`;
     }
 
-    return config?.backendUrl.includes('teleflow.co/v')
+    return config?.backendUrl.includes('teleflow.khulnasoft.com/v')
       ? config?.backendUrl
       : config?.backendUrl + `/${teleflowApiVersion}`;
   }

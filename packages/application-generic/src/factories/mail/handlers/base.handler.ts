@@ -34,7 +34,7 @@ export abstract class BaseHandler implements IMailHandler {
     const mailData: IEmailOptions = {
       html: '<div>checking integration</div>',
       subject: 'Checking Integration',
-      to: ['no-reply@teleflow.co'],
+      to: ['no-reply@teleflow.khulnasoft.com'],
     };
 
     const { message, success, code } = await this.provider.checkIntegration(

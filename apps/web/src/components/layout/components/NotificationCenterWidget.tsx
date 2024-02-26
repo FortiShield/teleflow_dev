@@ -5,8 +5,8 @@ import { NotificationBell, TeleflowProvider, PopoverNotificationCenter, useUpdat
 import { API_ROOT, APP_ID, WS_URL, IS_EU_ENV } from '../../../config';
 import { useEnvController } from '../../../hooks';
 
-const BACKEND_URL = IS_EU_ENV ? 'https://api.teleflow.co' : API_ROOT;
-const SOCKET_URL = IS_EU_ENV ? 'https://ws.teleflow.co' : WS_URL;
+const BACKEND_URL = IS_EU_ENV ? 'https://api.teleflow.khulnasoft.com' : API_ROOT;
+const SOCKET_URL = IS_EU_ENV ? 'https://ws.teleflow.khulnasoft.com' : WS_URL;
 
 export function NotificationCenterWidget({ user }: { user: IUserEntity | undefined }) {
   const { environment } = useEnvController();

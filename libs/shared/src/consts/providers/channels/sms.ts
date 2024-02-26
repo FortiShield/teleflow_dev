@@ -40,7 +40,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'Teleflow SMS',
     channel: ChannelTypeEnum.SMS,
     credentials: [],
-    docReference: `https://docs.teleflow.co/channels-and-providers/default-providers${UTM_CAMPAIGN_QUERY_PARAM}#teleflow-sms-provider`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/default-providers${UTM_CAMPAIGN_QUERY_PARAM}#teleflow-sms-provider`,
     logoFileName: { light: 'teleflow.png', dark: 'teleflow.png' },
   },
   {
@@ -48,7 +48,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'Nexmo',
     channel: ChannelTypeEnum.SMS,
     credentials: nexmoConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/nexmo${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/nexmo${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'nexmo.png', dark: 'nexmo.png' },
   },
   {
@@ -56,7 +56,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'Plivo',
     channel: ChannelTypeEnum.SMS,
     credentials: plivoConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/plivo${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/plivo${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'plivo.png', dark: 'plivo.png' },
   },
 
@@ -65,7 +65,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'sms77',
     channel: ChannelTypeEnum.SMS,
     credentials: sms77Config,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/sms77${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/sms77${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'sms77.svg', dark: 'sms77.svg' },
   },
   {
@@ -73,7 +73,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'SNS',
     channel: ChannelTypeEnum.SMS,
     credentials: snsConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/aws-sns${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/aws-sns${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'sns.svg', dark: 'sns.svg' },
   },
   {
@@ -81,7 +81,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'Telnyx',
     channel: ChannelTypeEnum.SMS,
     credentials: telnyxConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/telnyx${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/telnyx${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'telnyx.png', dark: 'telnyx.png' },
   },
   {
@@ -97,7 +97,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'Twilio',
     channel: ChannelTypeEnum.SMS,
     credentials: twilioConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/twilio${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/twilio${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'twilio.png', dark: 'twilio.png' },
   },
   {
@@ -121,7 +121,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'Infobip',
     channel: ChannelTypeEnum.SMS,
     credentials: infobipSMSConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/infobip${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/infobip${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'infobip.png', dark: 'infobip.png' },
   },
   {
@@ -195,7 +195,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: 'Termii',
     channel: ChannelTypeEnum.SMS,
     credentials: termiiConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/termii${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/termii${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'termii.png', dark: 'termii.png' },
   },
   {
@@ -203,7 +203,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: `Africa's Talking`,
     channel: ChannelTypeEnum.SMS,
     credentials: africasTalkingConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/africas-talking${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/africas-talking${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'africas-talking.svg', dark: 'africas-talking.svg' },
   },
   {
@@ -211,7 +211,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: `Sendchamp`,
     channel: ChannelTypeEnum.SMS,
     credentials: sendchampConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/sms/sendchamp${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/sms/sendchamp${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'sendchamp.svg', dark: 'sendchamp.svg' },
   },
   {
@@ -219,7 +219,7 @@ export const smsProviders: IProviderConfig[] = [
     displayName: `Generic SMS`,
     channel: ChannelTypeEnum.SMS,
     credentials: genericSmsConfig,
-    docReference: `https://docs.teleflow.co/channels/sms/generic-sms${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels/sms/generic-sms${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'generic-sms.svg', dark: 'generic-sms.svg' },
   },
   {

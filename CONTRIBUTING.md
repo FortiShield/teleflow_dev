@@ -56,10 +56,10 @@ You can open a new issue with this [issue form](https://github.com/khulnasoft/te
 
 The project is a monorepo, meaning that it is a collection of multiple packages managed in the same repository.
 
-To learn more about the project structure and running the project locally, please have a look [here](https://docs.teleflow.co/community-support/introduction#run-teleflow-locally).
+To learn more about the project structure and running the project locally, please have a look [here](https://docs.teleflow.khulnasoft.com/community-support/introduction#run-teleflow-locally).
 After cloning your fork, you will need to run the `npm run setup:project` command to install and build all dependencies.
 
-To learn a detailed guide on running the project locally, checkout our guide on [how to run teleflow in local machine](https://docs.teleflow.co/community/run-in-local-machine).
+To learn a detailed guide on running the project locally, checkout our guide on [how to run teleflow in local machine](https://docs.teleflow.khulnasoft.com/community/run-in-local-machine).
 
 ## Missing a Feature?
 
@@ -75,7 +75,7 @@ To ensure consistency throughout the source code, please keep these rules in min
 
 ## Need help? Questions and suggestions
 
-Questions, suggestions, and thoughts are most welcome. Feel free to open a [GitHub Issue](https://github.com/khulnasoft/teleflow/issues/new/choose). We can also be reached on our [Discord Server](https://discord.teleflow.co).
+Questions, suggestions, and thoughts are most welcome. Feel free to open a [GitHub Issue](https://github.com/khulnasoft/teleflow/issues/new/choose). We can also be reached on our [Discord Server](https://discord.teleflow.khulnasoft.com).
 
 ## Ways to contribute
 
@@ -86,8 +86,8 @@ Questions, suggestions, and thoughts are most welcome. Feel free to open a [GitH
 - Help create tutorials and blog posts
 - Request a feature by submitting a proposal
 - Report a bug
-- **Improve documentation** - fix incomplete or missing [docs](https://docs.teleflow.co/), bad wording, examples or explanations.
+- **Improve documentation** - fix incomplete or missing [docs](https://docs.teleflow.khulnasoft.com/), bad wording, examples or explanations.
 
 ## Missing a provider?
 
-If you are in need of a provider we do not yet have, you can request a new one by [submitting an issue](#submitting-an-issue). Or you can build a new one by following our [create a provider guide](https://docs.teleflow.co/community/add-a-new-provider).
+If you are in need of a provider we do not yet have, you can request a new one by [submitting an issue](#submitting-an-issue). Or you can build a new one by following our [create a provider guide](https://docs.teleflow.khulnasoft.com/community/add-a-new-provider).

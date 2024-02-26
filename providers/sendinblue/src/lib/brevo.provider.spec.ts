@@ -4,7 +4,7 @@ import { EmailEventStatusEnum } from '@teleflow/stateless';
 const mockConfig = {
   apiKey:
     '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',
-  from: 'test@teleflow.co',
+  from: 'test@teleflow.khulnasoft.com',
   senderName: 'test',
 };
 

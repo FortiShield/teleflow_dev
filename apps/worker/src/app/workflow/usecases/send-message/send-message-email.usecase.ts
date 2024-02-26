@@ -265,7 +265,7 @@ export class SendMessageEmail extends SendMessageBase {
         to: email,
         subject,
         html,
-        from: integration?.credentials.from || 'no-reply@teleflow.co',
+        from: integration?.credentials.from || 'no-reply@teleflow.khulnasoft.com',
         attachments,
         senderName,
         id: message._id,

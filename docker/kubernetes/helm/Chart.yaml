@@ -8,7 +8,7 @@ keywords:
   - notification framework
 sources:
   - https://github.com/khulnasoft/teleflow/tree/next/docker/kubernetes/helm
-home: https://teleflow.co/
+home: https://teleflow.khulnasoft.com/
 dependencies:
   - condition: redis.enabled
     name: redis

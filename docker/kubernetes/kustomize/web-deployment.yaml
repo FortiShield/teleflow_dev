@@ -5,20 +5,20 @@ metadata:
     kompose.cmd: kompose convert
     kompose.version: 1.26.1 (HEAD)
   labels:
-    app.teleflow.co/name: web
+    app.teleflow.khulnasoft.com/name: web
   name: web
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.teleflow.co/name: web
+      app.teleflow.khulnasoft.com/name: web
   template:
     metadata:
       annotations:
         kompose.cmd: kompose convert
         kompose.version: 1.26.1 (HEAD)
       labels:
-        app.teleflow.co/name: web
+        app.teleflow.khulnasoft.com/name: web
     spec:
       containers:
         - envFrom:

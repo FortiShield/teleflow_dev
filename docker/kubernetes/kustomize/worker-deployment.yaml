@@ -5,20 +5,20 @@ metadata:
     kompose.cmd: kompose convert
     kompose.version: 1.26.1 (HEAD)
   labels:
-    app.teleflow.co/name: worker
+    app.teleflow.khulnasoft.com/name: worker
   name: worker
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.teleflow.co/name: worker
+      app.teleflow.khulnasoft.com/name: worker
   template:
     metadata:
       annotations:
         kompose.cmd: kompose convert
         kompose.version: 1.26.1 (HEAD)
       labels:
-        app.teleflow.co/name: worker
+        app.teleflow.khulnasoft.com/name: worker
     spec:
       containers:
         - envFrom:

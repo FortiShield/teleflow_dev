@@ -19,9 +19,9 @@ jobs:
     uses: ./.github/workflows/reusable-widget-deploy.yml
     with:
       environment: Production
-      react_app_api_url: https://eu.api.teleflow.co
-      react_app_ws_url: https://eu.ws.teleflow.co
-      react_app_webhook_url: https://eu.webhook.teleflow.co
+      react_app_api_url: https://eu.api.teleflow.khulnasoft.com
+      react_app_ws_url: https://eu.ws.teleflow.khulnasoft.com
+      react_app_webhook_url: https://eu.webhook.teleflow.khulnasoft.com
       react_app_sentry_dsn: https://02189965b1bb4cf8bb4776f417f80b92@o1161119.ingest.sentry.io/625116
       react_app_environment: production
       netlify_deploy_message: Prod deployment
@@ -37,9 +37,9 @@ jobs:
     uses: ./.github/workflows/reusable-widget-deploy.yml
     with:
       environment: Production
-      react_app_api_url: https://api.teleflow.co
-      react_app_ws_url: https://ws.teleflow.co
-      react_app_webhook_url: https://webhook.teleflow.co
+      react_app_api_url: https://api.teleflow.khulnasoft.com
+      react_app_ws_url: https://ws.teleflow.khulnasoft.com
+      react_app_webhook_url: https://webhook.teleflow.khulnasoft.com
       react_app_sentry_dsn: https://02189965b1bb4cf8bb4776f417f80b92@o1161119.ingest.sentry.io/625116
       react_app_environment: production
       netlify_deploy_message: Prod deployment

@@ -11,7 +11,7 @@ export const chatProviders: IProviderConfig[] = [
     displayName: 'Slack',
     channel: ChannelTypeEnum.CHAT,
     credentials: slackConfig,
-    docReference: `https://docs.teleflow.co/channels-and-providers/chat/slack${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/chat/slack${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'slack.svg', dark: 'slack.svg' },
   },
   {
@@ -19,7 +19,7 @@ export const chatProviders: IProviderConfig[] = [
     displayName: 'Discord',
     channel: ChannelTypeEnum.CHAT,
     credentials: [] as IConfigCredentials[],
-    docReference: `https://docs.teleflow.co/channels-and-providers/chat/discord${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/chat/discord${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'discord.svg', dark: 'discord.svg' },
   },
   {
@@ -35,7 +35,7 @@ export const chatProviders: IProviderConfig[] = [
     displayName: 'MSTeams',
     channel: ChannelTypeEnum.CHAT,
     credentials: [] as IConfigCredentials[],
-    docReference: `https://docs.teleflow.co/channels-and-providers/chat/ms-teams${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/chat/ms-teams${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'msteams.svg', dark: 'msteams.svg' },
   },
   {
@@ -59,7 +59,7 @@ export const chatProviders: IProviderConfig[] = [
     displayName: 'Zulip',
     channel: ChannelTypeEnum.CHAT,
     credentials: [] as IConfigCredentials[],
-    docReference: `https://docs.teleflow.co/channels-and-providers/chat/zulip${UTM_CAMPAIGN_QUERY_PARAM}`,
+    docReference: `https://docs.teleflow.khulnasoft.com/channels-and-providers/chat/zulip${UTM_CAMPAIGN_QUERY_PARAM}`,
     logoFileName: { light: 'zulip.svg', dark: 'zulip.svg' },
   },
   {

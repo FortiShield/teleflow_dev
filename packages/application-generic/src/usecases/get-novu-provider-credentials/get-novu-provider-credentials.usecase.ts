@@ -60,7 +60,7 @@ export class GetTeleflowProviderCredentials {
     if (integration.providerId === EmailProviderIdEnum.Teleflow) {
       return {
         apiKey: process.env.TELEFLOW_EMAIL_INTEGRATION_API_KEY,
-        from: 'no-reply@teleflow.co',
+        from: 'no-reply@teleflow.khulnasoft.com',
         senderName: 'Teleflow',
         ipPoolName: 'Demo',
       };

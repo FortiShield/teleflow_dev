@@ -130,7 +130,7 @@ export const TeleflowInAppForm = ({
           <CircleArrowRightStyled
             onClick={() => {
               window.open(
-                `https://docs.teleflow.co/notification-center/client/iframe${UTM_CAMPAIGN_QUERY_PARAM}#enabling-hmac-encryption`
+                `https://docs.teleflow.khulnasoft.com/notification-center/client/iframe${UTM_CAMPAIGN_QUERY_PARAM}#enabling-hmac-encryption`
               );
             }}
           />
