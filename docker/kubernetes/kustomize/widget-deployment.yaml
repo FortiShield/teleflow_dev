@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.1 (HEAD)
+  labels:
+    app.teleflow.co/name: widget
+  name: widget
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.teleflow.co/name: widget
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.1 (HEAD)
+      labels:
+        app.teleflow.co/name: widget
+    spec:
+      containers:
+        - envFrom:
+            - configMapRef:
+                name: teleflow-env
+          image: ghcr.io/khulnasoft/teleflow/widget:0.23.0
+          name: widget
+          ports:
+            - containerPort: 4500

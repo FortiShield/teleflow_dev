@@ -1,0 +1,36 @@
+'@teleflow/api':
+  - apps/api/**/*
+'@teleflow/worker':
+  - apps/worker/**/*
+'@teleflow/web':
+  - apps/web/**/*
+'@teleflow/ws':
+  - apps/ws/**/*
+'@teleflow/inbound-mail':
+  - apps/inbound-mail/**/*
+'@teleflow/webhook':
+  - apps/webhook/**/*
+'@teleflow/dal':
+  - libs/dal/**/*
+'@teleflow/design-system':
+  - libs/design-system/**/*
+'@teleflow/shared':
+  - libs/shared/**/*
+'@teleflow/notification-center':
+  - packages/notification-center/**/*
+'@teleflow/notification-center-vue':
+  - packages/notification-center-vue/**/*
+'@teleflow/notification-center-angular':
+  - packages/notification-center-angular/**/*
+'providers':
+  - providers/**/*
+'CI/CD':
+  - .github/**/*
+'helm':
+  - docker/kubernetes/helm/**/*
+'kustomize':
+  - docker/kubernetes/kustomize/**/*
+'docker':
+  - docker/**/*
+'scripts':
+  - scripts/**/*

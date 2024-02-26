@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.1 (HEAD)
+  labels:
+    app.teleflow.co/name: web
+  name: web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.teleflow.co/name: web
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.1 (HEAD)
+      labels:
+        app.teleflow.co/name: web
+    spec:
+      containers:
+        - envFrom:
+            - configMapRef:
+                name: teleflow-env
+          image: ghcr.io/khulnasoft/teleflow/web:0.23.0
+          name: web
+          ports:
+            - containerPort: 4200

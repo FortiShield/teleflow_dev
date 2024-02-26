@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.26.1 (HEAD)
+  labels:
+    app.teleflow.co/name: embed
+  name: embed
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.teleflow.co/name: embed
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert
+        kompose.version: 1.26.1 (HEAD)
+      labels:
+        app.teleflow.co/name: embed
+    spec:
+      containers:
+        - envFrom:
+            - configMapRef:
+                name: teleflow-env
+          image: ghcr.io/khulnasoft/teleflow/embed:0.23.0
+          name: embed
+          ports:
+            - containerPort: 4701

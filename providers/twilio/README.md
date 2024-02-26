@@ -1,0 +1,20 @@
+# Nodejs Twilio Provider
+
+A twilio sms provider library for [@teleflow/stateless](https://github.com/khulnasoft/teleflow).
+
+## Usage
+
+```javascript
+import { TwilioSmsProvider } from '@teleflow/twilio';
+
+const provider = new TwilioSmsProvider({
+  accountSid: process.env.TWILIO_ACCOUNT_SID,
+  authToken: process.env.TWILIO_AUTH_TOKEN,
+  from: process.env.TWILIO_FROM_NUMBER, // a valid twilio phone number
+});
+
+await provider.sendMessage({
+  to: '0123456789',
+  content: 'Message to send',
+});
+```
