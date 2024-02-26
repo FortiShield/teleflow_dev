@@ -1,6 +1,6 @@
 import type { App } from 'vue';
-import FloatingVue from '@teleflow/floating-vue';
-import '@teleflow/floating-vue/dist/style.css';
+import FloatingVue from '@novu/floating-vue';
+import '@novu/floating-vue/dist/style.css';
 import { NotificationCenterContentWebComponent } from '@teleflow/notification-center';
 
 import { NotificationCenterComponent } from './lib';
